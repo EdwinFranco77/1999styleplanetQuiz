@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Nottke;
+    src: url(Nottke_Bold.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh; 
+    background-image: url(Planets2.gif);   
+    background-size: cover;
+}
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    color: blue;
+    background-color: transparent;
+    font-family: Nottke;
+    font-size: x-large;
+    text-align: center;
+      
+}
+.result{
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+      
+}
+.option-container{
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    background-color: transparent;   
+        
+}
+.option{    
+    padding: 10px;
+    width: 17vw;
+    height: 10vh;
+    font-family: Nottke;
+    font-size: larger;
+    color: blue;
+    background-color: grey;
+    border-radius: 5px;
+}
+.option:hover{
+    background-color: lightgray;
+}
+.navigation{
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color:transparent;
+}
+  
+.evaluate,.next{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-family: Nottke;
+    font-size: larger;
+}
+.evaluate{
+    color: blue;
+    background-color: transparent;
+}
+.next{
+    color: red;
+    background-color: transparent;
+}
